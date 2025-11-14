@@ -1,0 +1,30 @@
+# Python Lists and Tuples
+
+#List
+fruits = ["apple", "banana", "orange"]
+
+print("List of fruits:", fruits)
+print("First fruit:", fruits[0])
+print("Last fruit:", fruits[-1])
+
+# Adding
+fruits.append("mango")
+print("After adding mango:", fruits)
+
+# Removing
+fruits.remove("banana")
+print("After removing banana:", fruits)
+
+# Looping
+for fruit in fruits:
+    print("Fruit:", fruit)
+
+# Tuple 
+coordinates = (10, 20)
+print("\nTuple:", coordinates)
+
+# Accessing tuple values
+print("X value:", coordinates[0])
+print("Y value:", coordinates[1])
+
+
